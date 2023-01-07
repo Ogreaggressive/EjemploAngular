@@ -1,0 +1,8 @@
+{
+  "encabezado":["id","nombre","cliente","fecha"],
+  "cuerpo":[
+    ["1","Sistema contable web","Coca Cola","15/10/2018"],
+    ["2","Control de ventas","Pil Andina","1/11/2019"],
+    ["3","Sistema de reservas","BOA","22/8/2021"]
+  ]
+}

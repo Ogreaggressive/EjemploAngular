@@ -1,0 +1,9 @@
+{
+  "encabezado":["id","product","description"],
+  "cuerpo":[
+    ["1","desarrollo web","prueba 1"],
+    ["2","desarrollo web","prueba 2"],
+    ["3","desarrollo web","prueba 3"],
+    ["4","desarrollo web","prueba 4"]
+  ]
+}

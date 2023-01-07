@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {TestService} from "./servicios/test.service";
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'personal';
+  saludo:string = '';
+
+  constructor(private TestService: TestService) {}
+  title = "personal";
+
+  realizarSaludo(){
+    this.saludo = this.TestService.saluda();
+  }
 }
+

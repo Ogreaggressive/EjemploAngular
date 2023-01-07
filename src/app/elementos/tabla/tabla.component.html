@@ -1,0 +1,12 @@
+<table *ngIf="datos">
+  <thead>
+  <tr>
+    <th *ngFor ="let encabezado of datos.encabezado">{{encabezado}}</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor ="let fila of datos.cuerpo">
+      <td *ngFor ="let dato of fila">{{dato}}</td>
+    </tr>
+  </tbody>
+</table>
